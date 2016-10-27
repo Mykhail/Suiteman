@@ -1,0 +1,9 @@
+{
+  "customFolderName": "extensions",
+  "customModuleFolderAfix": {
+    "prefix": "",
+    "suffix": ".Extension"
+  },
+  "customFileNameSuffix": ".Ext",
+  "customModuleVersion": "1.0.0"
+}
