@@ -3,7 +3,7 @@
 "use strict";
 
 const program = require('commander'),
-	 suiteHelper = require('./suite-helper').suiteHelper;
+	 suiteHelper = require('./lib/suite-helper').suiteHelper;
 
 program
 	.version('2.0.0')

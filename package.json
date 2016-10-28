@@ -1,5 +1,5 @@
 {
-  "name": "acns_suiteman",
+  "name": "suiteman",
   "version": "2.0.0",
   "description": "SCA customization tool",
   "main": "index.js",
