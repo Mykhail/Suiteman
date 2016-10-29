@@ -3,11 +3,10 @@
 Suiteman is a simple tool created to automate customization process of Suite Commerce Advanced applications.
 
 Different types of files and resources in SuiteCommerce have different recommended best practices.
-Newcomers are always confused how to choose the right one.
-Moreover, even seasoned SCA veterans sometimes forget about company naming conventions and get annoyed when they need to do all copy/paste file manipulations.
+Therefore, choosing the right one might be confusing for newcomers. Moreover, even seasoned SCA veterans sometimes forget about companys' naming conventions and get annoyed while doing all requred copy/paste file manipulations.
 
 Suiteman analyzes file path and creates all customization files in accordance with NetSuite <a href="https://developers.suitecommerce.com/section4501068327">best practices</a> and naming conventions.
-Moreover, it automatically adds all required dependencies to appropriate place in distro.json file.
+In addition, it automatically adds all required dependencies to an appropriate object in distro.json file.
 
 ## Demo
 <p align="center">
@@ -23,7 +22,7 @@ $ npm install suiteman -g
 ```
 
 
-After that, you can run Suiteman on any SCA applications. Just run it in the root of Suite Commerce Advanced application :
+After that, you can run Suiteman on any SCA applications. Just run it from the root folder of Suite Commerce Advanced application :
 
 ```
 $ suiteman -c PATH_TO_FILE
@@ -76,7 +75,7 @@ Example: suiteman Account@2.1.0/JavaScript/Account.Login.Model.js -a checkout
 ```
 
 ### Staus
-Currently, Suiteman supports automated customization for the following file types:
+Currently Suiteman supports automated customization for the following file types:
 <ul>
 <li>JS</li>
 <li>Sass(scss)</li>
